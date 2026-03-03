@@ -17,6 +17,7 @@ In this lab, we worked on the logic behind light switches. Particularly, lights 
 ## Lab Questions
 
 ### 1 - How might you add more than two bits together?
+In the lab, we added 2 bits together and it involved one half adder and two full adders. 
 
 ### 2 - What is the importance of the XOR gate in an adder?
 
