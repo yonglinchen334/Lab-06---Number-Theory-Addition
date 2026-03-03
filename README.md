@@ -17,9 +17,11 @@ In this lab, we worked on the logic behind light switches. Particularly, lights 
 ## Lab Questions
 
 ### 1 - How might you add more than two bits together?
-In the lab, we added 2 bits together and it involved one half adder and two full adders. 
+In the lab, we added 2 bits together and it involved using two full adders. In order to add more than 2 bit together, we would need n number of full adders to add n number of bits together. This creates something called a ripple carry adder. 
 
 ### 2 - What is the importance of the XOR gate in an adder?
+The XOR gate is important in an adder because it captures the exact logic needed for the carry. This is because it builds on the rule of "exactly one 1". When inputs A and B are both equal to 1, the output is equal to 0 and the carry out is equal to 1. 
 
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
+The largest number that a 2-bit adder can handle is 3, which is 11 in binary form. When you go over, such as when you add two bits together, 3 (largest 2-bit number), you get 6. 6 is written as 110 in binary, which is a 3-bit number. This means that a carry was present/created and thus it is larger than a 2-bit number and can no longer be stored in 2 bits. In hardware, it would mean that there is not enough space or capacity to store the extra bit. 
 
