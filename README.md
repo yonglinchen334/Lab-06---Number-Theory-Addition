@@ -11,6 +11,9 @@ In this lab you've learned the basics of number theory as it relates to addition
 | Question 2 | Your answers to the question | 25% |
 | Question 3 | Your answers to the question | 25% |
 
+## Summary 
+In this lab, we worked on the logic behind light switches. Particularly, lights with multiple on/off switches located in different locations. In our case, we had upstairs and downstairs lights. I have always wondering how a 2 or 3 way switch works and have also taken apart some of those switches off the wall to perform repairs, and was never quite able to wrap my head around it. I guess, now it does make a lot more sense. In the lab, we used the a XOR gate to implement a 2 way switch because a light may only be on if only one input is equal to 1. Then we also went and worked with half adders and full adders, we had no issues implementing the design and interpreting the truth table. We only run into an issues trying to figure out if our logic was implemented correctly for the 2-bit adders. We knew that the logic should be correct, but we needed to figure out how to verify that the specific leds were on when they were supposed to and off when they were not. I think we ended up creating some sort of truth table to help us get that sorted out. Overall, the lab was enjoyable and we got to learn how this stuff is applied everyday in real life scenarios. 
+
 ## Lab Questions
 
 ### 1 - How might you add more than two bits together?
